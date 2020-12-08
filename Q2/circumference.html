@@ -1,0 +1,53 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<style>
+            .input{
+                color: red;
+                background-color: rgb(73, 80, 104);
+                height: 30px;
+                width: 200px;
+            }
+            .btn{
+                background-color: blue;
+                height: 30px;
+                width: 80px;
+                border-radius: 10%;
+            }
+            .text{
+                font-size: 20px;
+                color: crimson;
+                border: 2px solid black;
+                height: 30px;
+                width: 290px;
+                padding: 12px;
+            }
+            .main{
+                justify-content: center;
+                text-align: center;
+                height: 300px;
+                width: 350px;
+                margin: 20px;
+                margin-left: 500px;
+                padding: 30px;
+                background-color: cadetblue;
+            }
+        </style>
+    </head>
+    <body>
+
+<div class="main">
+    
+        <input type="text" class="input" id="input" placeholder="Enter Radius" required/>
+        <button onclick="calculateCircumference()" class="btn">Calculate</button>
+       <p class="text">The Circumference is : <span id="show"></span></p> 
+
+</div>
+    </body>
+     	<script src="circ.js"></script> <!-- Resource jQuery -->
+
+		
+</html>

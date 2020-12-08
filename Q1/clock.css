@@ -1,0 +1,23 @@
+.main_div{
+    background-color: blueviolet;
+    font-size: 50px;
+    height: 220px;
+    width: 400px;
+    justify-content: center;
+    margin: 180px;
+    margin-left: 500px;
+    text-align: center;
+}
+.time{
+    margin: 15px;
+}
+
+
+.days{
+    color: brown;
+    background-color: darkgreen;
+    he
+}
+.date{
+    color: darkblue;
+}
